@@ -3,13 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-#canvas1 {
-  background: url("images/background.png");
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 #overlay {
   position: absolute;
   top: 50%;
@@ -17,6 +11,15 @@
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
-#obstacles {
-    
+
+#canvas1 {
+  background: url("images/background.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#obstacles, #bull, #egg, #toad, #toads, #larva {
+    display: none;
 }
